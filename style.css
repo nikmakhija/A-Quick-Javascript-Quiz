@@ -1,0 +1,31 @@
+h1 {
+    align-items: center;
+    background-color: darksalmon;
+    align-content: center;
+    text-align: center;
+    font-size:35 ;
+}
+.title1 {
+    align-items:center;
+}
+.begin_btn {
+    font-size: 35px;
+    background-color: deeppink;
+    align-content: center;
+    text-align: center;
+    }
+.next_question {
+    text-align:center;
+}
+body {background-color: beige;
+font-family: 'Times New Roman', Times, serif;
+align-items: center;
+text-align: center;
+font-size: 35px;}
+.Notes {
+    text-align: left;
+}
+button {
+    background-color: lightgreen;
+    font-weight: bold;
+}
