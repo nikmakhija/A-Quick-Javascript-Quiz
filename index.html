@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<h1 id="title1">Javascript Quiz</h1>
+<link rel="stylesheet" href="./style.css">
+</head>
+
+<body>
+    <button id="begin_btn" onclick = "setTimeout (Why (), 50000)">Click to Begin Quiz</button>
+    <script>function Why () {
+        alert ("Time and quiz start now: Question 1 - Are Javascript and Java the same?")
+    }</script>
+     <button id="Yes">YES</button>
+     <button id="No">NO</button>
+     <button id="Sometimes">SOMETIMES</button>
+     <button id="DONT KNOW">DON'T KNOW</button>
+
+<div class="Instructions">
+    <div class="Notes">1. You have 5 mintes to answer this quiz</div>
+    <div class="Notes">2. Please click the right choice for the 5 questions</div>
+</div>
+</body>
+<section>
+    <div id="Questions"></div>
+    <div id="options"></div>
+    <div class="option" id="Yes" onclick="clickOption('Yes')"></div>
+    <div class="option" id="No" onclick="clickOption('No')"></div>
+    <div class="option" id="Sometimes" onclick="clickOption('Sometimes')"></div>
+    <div class="option" id="Dont Know" onclick="clickOption('Dont Know')"></div>
+</section>
+
+<footer>
+    <button id="next_question" onclick="Message()">Next Question</button>
+    <script> function Message () {
+        alert ("Question2 - Unlike html and css, Javascript cannot store variables?")
+    }
+    </script>
+    <button id="Yes">YES</button>
+    <button id="No">NO</button>
+    <button id="Sometimes">SOMETIMES</button>
+    <button id="DONT KNOW">DON'T KNOW</button>
+</footer>
+<script src="./script.js"></script>
