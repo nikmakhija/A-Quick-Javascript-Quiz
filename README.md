@@ -12,3 +12,4 @@ WHEN the game is over
 THEN I can save my initials and score
 ![Screenshot (7)](https://user-images.githubusercontent.com/90490335/143791903-0b12d121-f11a-44d2-a95e-3dde0989b8b8.png)
 file:///C:/Users/makhija.1/Desktop/index.html
+https://nikmakhija.github.io/A-Quick-Javascript-Quiz/
